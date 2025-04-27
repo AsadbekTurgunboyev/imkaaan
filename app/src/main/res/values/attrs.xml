@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DividerView">
+        <attr name="color" format="color" />
+        <attr name="dashLength" format="dimension" />
+        <attr name="dashGap" format="dimension" />
+        <attr name="dashThickness" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SwipeButton">
+        <attr name="inner_text" format="string" />
+        <attr name="inner_text_color" format="color" />
+        <attr name="inner_text_size" format="dimension" />
+        <attr name="inner_text_left_padding" format="dimension" />
+        <attr name="inner_text_right_padding" format="dimension" />
+        <attr name="inner_text_top_padding" format="dimension" />
+        <attr name="inner_text_bottom_padding" format="dimension" />
+        <attr name="inner_text_background" format="reference" />
+        <attr name="button_image_width" format="dimension" />
+        <attr name="button_image_height" format="dimension" />
+        <attr name="button_trail_enabled" format="boolean" />
+        <attr name="button_trail_drawable" format="reference" />
+        <attr name="button_image_disabled" format="reference" />
+        <attr name="button_image_enabled" format="reference" />
+        <attr name="button_left_padding" format="dimension" />
+        <attr name="button_right_padding" format="dimension" />
+        <attr name="button_top_padding" format="dimension" />
+        <attr name="button_bottom_padding" format="dimension" />
+        <attr name="button_background" format="reference" />
+        <attr name="has_activate_state" format="boolean" />
+        <attr name="initial_state" format="enum">
+            <enum name="enabled" value="0" />
+            <enum name="disabled" value="1" />
+        </attr>
+
+
+    </declare-styleable>
+
+    <declare-styleable name="SwipeableButton">
+        <attr name="isChecked" format="boolean" />
+        <attr name="isClickToSwipeEnable" format="boolean" />
+        <attr name="thresholdEnd" format="float" />
+        <attr name="thresholdStart" format="float" />
+        <attr name="textChecked" format="string|reference" />
+        <attr name="textUnchecked" format="string|reference" />
+        <attr name="textSize" format="float|dimension" />
+        <attr name="textColorChecked" format="integer|reference" />
+        <attr name="textColorUnChecked" format="integer|reference" />
+        <attr name="checkedIcon" format="reference" />
+        <attr name="uncheckedIcon" format="reference" />
+        <attr name="checkedToggleBackground" format="reference" />
+        <attr name="uncheckedToggleBackground" format="reference" />
+        <attr name="checkedBackground" format="reference" />
+        <attr name="uncheckedBackground" format="reference" />
+        <attr name="durationAnimation" format="float" />
+    </declare-styleable>
+
+
+        <declare-styleable name="ChartProgressBar">
+            <attr name="barHeight" format="dimension"/>
+        </declare-styleable>
+
+
+
+
+</resources>

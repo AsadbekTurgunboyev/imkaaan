@@ -1,0 +1,256 @@
+<resources>
+    <string name="app_name" translatable="false">Ajr Taxi(Driver)</string>
+    <string name="tizimga_kirish">Tizimga kirish</string>
+    <string name="tizimga_kirish_uchun_telefon_raqamingizni_kiriting">Tizimga kirish uchun telefon raqamingizni kiriting</string>
+    <string name="telefon_raqamingiz">Telefon raqamingiz</string>
+    <string name="input_password">Raqamiga 4 xonali kod yuborildi, ushbu kodni kiriting</string>
+    <string name="resend_sms">Qayta yuborish</string>
+    <string name="input_name">Ismingizni kiriting!</string>
+    <string name="input_surname">Familyangizni kiriting!</string>
+    <string name="input_birth">Tugilgan kunni kiriting</string>
+    <string name="avtomobil_markasini_kiriting">Avtomobil markasini tanlang!</string>
+    <string name="avtomobil_rangini_kiriting">Avtomobil rangini tanlang!</string>
+    <string name="avtomobil_pozitsiyasini_kiriting">tanlang</string>
+    <string name="tariflar">Tariflar</string>
+    <string name="icon">icon</string>
+    <string name="xizmatlar">Xizmatlar</string>
+    <string name="tarix">Tarix</string>
+    <string name="chiqish">Chiqish</string>
+    <string name="buyurtmalar">Buyurtmalar</string>
+    <string name="balance">Balans</string>
+    <string name="til">Til</string>
+    <string name="rus">Русский</string>
+    <string name="uzb">O\'zbek tili</string>
+    <string name="krill">Узбек тили</string>
+    <string name="about_us">Biz haqimizda</string>
+    <string name="faq">FAQ</string>
+    <string name="baho_bering">Dasturga baho bering!</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_cloes">Close</string>
+    <string name="service">Xizmatlar</string>
+    <string name="konditsioner">Konditsioner</string>
+    <string name="pochta">Pochta</string>
+    <string name="peregruz">Peregruz</string>
+    <string name="tomda_yuk">Tomda yuk</string>
+    <string name="salonda_yuk">Salonda yuk</string>
+    <string name="raqamni_kiriting">Avtomobil raqamini to\'g\'ri kiriting!</string>
+    <string name="no_order">Ayni damda faol buyurtmalar mavjud emas!</string>
+    <string name="pls_wait">Iltimos bir oz kutib turing, yaqin vaqtda albatta yangi buyurtmalar tushadi!</string>
+    <string name="cancel">Rad etish</string>
+
+    <string name="income">Kirim</string>
+    <string name="outcome">Chiqim</string>
+    <string name="enter_range">Oraliq vaqtni kiriting!</string>
+    <string name="location_permission">Joylashganlik ruxsatnomasi</string>
+    <string name="grant_access">Ruxsat berish</string>
+
+    <string name="grant_permission_title">Ruxsat berish</string>
+    <string name="bg_permission_message">Dastur to\'g\'ri ishlashi uchun joylashganlik ruxsatini berishingizni so\'raymiz</string>
+    <string name="need_your_bg_location_permission">Dastur to\'g\'ri ishlashi uchun joylashganlik ruxsatini berishingizni so\'raymiz</string>
+    <string name="we_will_not_store_any_of_your_data_and_adhering_to_our_privacy_agreement">Dastur ma\'lumotlarni to\'plamaydi!</string>
+    <string name="all_allow">Ruxsat</string>
+    <string name="all">Barchasi</string>
+    <string name="yo_lovchi_izohi">Yo\'lovchi izohi</string>
+    <string name="accepted">Qabul qilish</string>
+    <string name="boshlang_ich_summa">Boshlang\'ich summa:</string>
+    <string name="checked_text">Yuklanmoqda</string>
+    <string name="unchecked_text">Mijozni olmoq</string>
+    <string name="start_stop_button">start stop button</string>
+    <string name="pulli_kutish">Pulli kutish:</string>
+    <string name="yetib_keldingiz">Yetib keldingiz!</string>
+    <string name="mijozgacha">Mijozgacha</string>
+    <string name="bepul_kutish">Bepul kutish</string>
+    <string name="buyurtmada">Buyurtmada</string>
+    <string name="wait">Kutish</string>
+    <string name="qo_ng_iroq">Qo\'ng\'iroq</string>
+    <string name="buyurtmalar_tarixi">Buyurtmalar tarixi</string>
+    <string name="umumiy_summa">Umumiy summa</string>
+    <string name="notification_channel_name">channel</string>
+    <string name="yours_id">Sizning ID</string>
+    <string name="fill_balance">Balansni to\'ldirish</string>
+    <string name="money_transfer">Pul o\'tkazmalari</string>
+    <string name="input_driver_id">Haydovchi IDsini kiriting</string>
+    <string name="transfer_money_value">O\'tkazma summasi</string>
+    <string name="error">Xatolik!</string>
+    <string name="congratulation">Tabriklaymiz</string>
+    <string name="transfer_is_successful">O\'tkazma muvaffaqiyatli amalga oshirildi</string>
+    <string name="summa">Summa</string>
+    <string name="warning">Diqqat!</string>
+    <string name="is_verify_payment">Siz rostdan ham ushbu haydovchiga pul o\'tkazmoqchimisiz?</string>
+    <string name="yes">Ha</string>
+    <string name="no">Yo\'q</string>
+    <string name="exit">Chiqish</string>
+    <string name="reason">Sababi</string>
+    <string name="time">Vaqti</string>
+    <string name="transaction">Tranzaksiyalar</string>
+    <string name="filter">Filtr</string>
+    <string name="remove_filter">Filtrni o\'chirish</string>
+    <string name="choose_date">Sanani tanlang</string>
+    <string name="from">Dan</string>
+    <string name="to">Gacha</string>
+    <string name="choose">Tanlang</string>
+    <string name="type">Turi</string>
+    <string name="no_found">Ma\'lumot topilmadi!</string>
+    <string name="transfers">Pul o\'tkazmalari</string>
+    <string name="about_transaction">Tranzaksiya haqida</string>
+    <string name="before_balance">O\'sha paytdagi balans</string>
+    <string name="value">Qiymati</string>
+    <string name="id">ID</string>
+    <string name="status">Holati</string>
+    <string name="success">Muvaffaqiyatli</string>
+    <string name="cancelOrder">Bekor qilingan</string>
+    <string name="admin">Admin</string>
+    <string name="tg">Telegram</string>
+    <string name="mobile">Mobile</string>
+    <string name="fare">Yo\'lkira haqqi</string>
+    <string name="wait_money">Pullik kutish</string>
+    <string name="wait_money_cost">Pullik kutish narxi</string>
+
+    <string name="get_customer">Mijozdan olasiz</string>
+    <string name="sign_out">Chiqish</string>
+    <string name="show_message_for_status">Buyurtma olish uchun \'Tasdiqlangan\' bo\'lishingiz lozim! Tasdiqlash uchun operatorlarga bog\'laning.\n\nTushunarli</string>
+    <string name="see">Tushunarli</string>
+    <string name="confirm">Tasdiqlash</string>
+    <string name="are_you_sure">Rostdan ham dasturdan chiqmoqchimisiz?</string>
+    <string name="your_status">Sizning statustingiz</string>
+    <string name="distance">Masofa</string>
+    <string name="texpassport_kiriting">Texpassportni kiriting!</string>
+    <string name="input_phone_number">Telefon raqamingizni kiriting!</string>
+    <string name="phone">Telefon</string>
+    <string name="kodni_kiriting">Kodni kiriting</string>
+    <string name="ma_lumotlarni_kiriting">Ma\'lumotlarni kiriting</string>
+    <string name="shaxsiy_ma_lumotlar">Shaxsiy ma\'lumotlar</string>
+    <string name="name">Ism</string>
+    <string name="input">Kiriting</string>
+    <string name="surname">Familya</string>
+    <string name="jinsingiz">Jinsingiz</string>
+    <string name="male">Erkak</string>
+    <string name="female">Ayol</string>
+    <string name="birthday">Tug\'ilgan sanangiz</string>
+    <string name="_12_08_1998" translatable="false">(12.08.1998)</string>
+    <string name="title_intro_phone">Operatorlar bilan bog\'lanish</string>
+    <string name="message_intro_phone">Ushbu tugmani bosish orqali operatorlarga qo\'ng\'iroq qilishingiz mumkin!\n\nDavom etish uchun qo\'ng\'iroq tugmasini bosing</string>
+    <string name="title_intro_socket">Aloqadasiz</string>
+    <string name="message_intro_socket">Yashil chiroqcha - biz bilan aloqa o\'rnatilgan\nQizil chiroqcha - aloqa yo\'q, bu katta ehtimol bilan sizning mobil tarmog\'ingiz ishlamayotganidan darak beradi!</string>
+    <string name="bekor_qilish">Bekor qilish</string>
+    <string name="you_are_connect_to_socket">Siz ayni dam ishdasiz. Chiqish uchun \'Ishda\' rejimini faolsizlantirishiz zarur!</string>
+    <string name="you_are_work">Siz ishdasiz</string>
+    <string name="understand">Tushunarli</string>
+    <string name="comment">Izoh:</string>
+    <string name="recconnect">Aloqa tiklanmoqda</string>
+    <string name="inwork">Ishda</string>
+    <string name="neеded_permission">Ruxsatnoma zarur!</string>
+    <string name="draw_permission">Bu ilova yaxshi ishlashi uchun “Boshqa ilovalar ustidan ochilishiga” ruxsat berishingiz kerak. Iltimos, sozlamalarda ruxsat bering.</string>
+    <string name="go_to_settings">Sozlamalarga o\'tish</string>
+    <string name="order_canceled">Buyurtma bekor qilindi!</string>
+    <string name="you_can_continue">Yangi buyurtma olib davom etishingiz mumkin.</string>
+    <string name="not_found_driver">Haydovchi topilmadi!</string>
+    <string name="km">km</string>
+    <string name="downloading">Yuklanmoqda..</string>
+    <string name="arrive">Yetib keldim</string>
+    <string name="finish">Yakunlash</string>
+    <string name="lets_go">Ketdik</string>
+    <string name="hisobni_to_ldirish">Hisobni to\'ldirish</string>
+    <string name="tarif_yoqildi">tarifi yoqildi!</string>
+    <string name="tarif_nofaol">tarifi faolsizlantirildi!</string>
+    <string name="tarif_rejim">Tarif rejimi</string>
+
+    <string-array name="month_names">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="ruxsat_berish">Ruxsat berish</string>
+
+    <string name="wait_money_time">Pullik kutish vaqti</string>
+    <string name="is_need_permission">Joylashuvga ruxsat bermasdan dasturdan to\'laqonli foydalanish imkonsiz!</string>
+    <string name="qo_n_g_iroq_qilish">Qo\'n\'g\'iroq qilish</string>
+    <string name="qayta_urinish">Qayta urinish</string>
+    <string name="bloklangan_raqam">Bloklangan raqam!</string>
+    <string name="yo_lkira_haqqi">Yo\'lkira haqqi</string>
+    <string name="hisoblagich_bo_yicha_yo_lkira_haqqi_safar_oxiridagi_yo_lkira_haqidan_biroz_farq_qilishi_mumkin">Hisoblagich bo\'yicha yo\'lkira haqqi safar oxiridagi yo\'lkira haqidan biroz farq qilishi mumkin.</string>
+    <string name="cannot_connect_to_server">Serverga ulanishda xatolik!</string>
+    <string name="no_internet">Internetga ulanish yo\'q</string>
+    <string name="unknow_error">Kutilmagan xatolik yuz berdi</string>
+    <string name="buyurtmani_rostdan_ham_yakunlamoqchimisiz">Buyurtmani rostdan ham yakunlamoqchimisiz?</string>
+    <string name="buyurtmani_yakunlaganingizdan_so_ng_u_yakunlangan_buyurtmalar_safiga_qo_shiladi_va_u_haqidagi_ma_lumotlarni_tarix_bo_limidan_topishingiz_mumkin_bo_ladi">Buyurtmani yakunlaganingizdan so\'ng u yakunlangan buyurtmalar safiga qo\'shiladi va u haqidagi ma\'lumotlarni Tarix bo\'limidan topishingiz mumkin bo\'ladi</string>
+    <string name="yakunlash">Yakunlash</string>
+    <string name="taximeter">Taxometer</string>
+    <string name="bonus_orqali_to_lov">Bonus orqali to\'lov</string>
+    <string name="bonus_summani_kiriting">Bonus summani kiriting</string>
+    <string name="tasdiqlash_kodini_kiriting">Tasdiqlash kodini kiriting</string>
+    <string name="qr">Qr Bonus</string>
+    <string name="message">Xabarlar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="xabarlar_tarixi">Xabarlar tarixi</string>
+    <string name="about_order">Buyurtma haqida</string>
+    <string name="price">Narxi</string>
+
+    <string name="success_check_photo">Surat nazoratidan muvaffaqiyatli o\'tdiz!</string>
+    <string name="foto_nazorat">Foto nazorat</string>
+    <string name="nazorat">Nazorat</string>
+    <string name="haydovchilar_nazorat_vaqti_kelgan_iltimos_ushbu_so_ralgan_suratlarni_tasvirga_olib_nazorat_ko_rigidan_o_ting">Haydovchilar nazorat vaqti kelgan. Iltimos ushbu so\'ralgan suratlarni tasvirga olib, nazorat ko\'rigidan o\'ting!</string>
+    <string name="mashinaning_chap_tomoni">Mashinaning chap tomoni</string>
+    <string name="mashinaning_o_ng_tomoni">Mashinaning o\'ng tomoni</string>
+    <string name="mashinaning_old_tomoni">Mashinaning old tomoni</string>
+    <string name="mashinaning_orqa_tomoni">Mashinaning orqa tomoni</string>
+    <string name="mashinaning_old_o_rindiqlari">Mashinaning old o\'rindiqlari</string>
+    <string name="mashinaning_orqa_o_rindiqlari">Mashinaning orqa o\'rindiqlari</string>
+    <string name="mashina_raqami_selfi_bilan">Mashina raqami selfi bilan</string>
+    <string name="haydovchilik_guvohnomasi">Haydovchilik guvohnomasi</string>
+    <string name="summani_kiriting">Summani kiriting</string>
+    <string name="to_lov_tizimini_tanlang">To\'lov tizimini tanlang</string>
+    <string name="next_button_for_phone">Next button for phone</string>
+    <string name="back_show_price_button">back show price button</string>
+    <string name="payment_click">payment click</string>
+    <string name="payment_payme">payment payme</string>
+    <string name="payment_uzum">payment uzum</string>
+    <string name="next_for_phone">next for phone</string>
+    <string name="yaqin_atrofdagi_buyurtmani_topish_hattoki_fonda_bo_lsa_ham">Yaqin atrofdagi buyurtmani topish, hattoki fonda bo\'lsa ham.</string>
+    <string name="harakatlanishingizni_kuzatish_va_ularni_bekjaan_taxi_mijozlari_uchun_ko_rsatish_va_xabardor_qilish">Harakatlanishingizni kuzatish va ularni Bekjaan taxi mijozlari uchun ko\'rsatish va xabardor qilish.</string>
+    <string name="sozlamalarni_tekshiring">Sozlamalarni tekshiring!</string>
+    <string name="bekjaan_taxi_driver_ilovasi_joylashuvingizni_doimiy_ravishda_kuzatishga_ruxsat_berishingizni_so_raydi_ushbu_dastur_joylashuvingizdan_quyidagilar_uchun_foydalanadi">Bekjaan Taxi(Driver) ilovasi joylashuvingizni doimiy ravishda kuzatishga ruxsat berishingizni so\'raydi. Ushbu dastur joylashuvingizdan quyidagilar uchun foydalanadi:</string>
+    <string name="o_tkazib_yuborish">Rad etish</string>
+    <string name="ruxsatnomalar">Ruxsatnomalar</string>
+    <string name="dasturdan_to_laqonli_foydalanishingiz_uchun_ushbu_ruxsatnomalarga_ruxsat_berishingiz_zarur">Dasturdan to\'laqonli foydalanishingiz uchun ushbu ruxsatnomalarga ruxsat berishingiz zarur. Ushbu bo\'limlarni bosish orqali ularga ruxsat berishni boshlaysiz.</string>
+    <string name="sozlamalarni_tekshirish">Sozlamalarni tekshirish</string>
+    <string name="joylashuv_uchun_ruxsatlar_va_gps">Orqa fon joylashuvi uchun ruxsat</string>
+    <string name="aniq_joylashuv_uchun_ruxsat">Aniq joylashuv uchun ruxsat</string>
+    <string name="boshqa_dasturlar_ustidan_ochilish">Boshqa dasturlar ustidan ochilish</string>
+    <string name="quvvat_tejashni_o_chirish">Quvvat tejashni o\'chirish</string>
+    <string name="battery_permission">Bekjaan Taxi(Driver) dasturi fonda ham muntazam ravishda ishlashi uchun quvvat tejash rejimini faolsizlantirish zarur.\nBuni keyinchalik sozlamalar bo\'limidan o\'chirib qo\'yishingiz mumkin.</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="my_profile">Mening profilim</string>
+
+    <string name="taxminiy_narx">Taxminiy narx</string>
+    <string name="new_order">Yangi buyurtma</string>
+    <string name="auto">Tizim</string>
+    <string name="night">Tungi</string>
+    <string name="day">Kunduzgi</string>
+    <string name="small">Kichik</string>
+    <string name="large">Katta</string>
+    <string name="navigation">Navigatsiya</string>
+    <string name="theme">Fon rejimi</string>
+    <string name="permission_denied">Ruxsat rad etildi</string>
+    <string name="ruxsat_berilmagan">"Siz %1$s uchun ruxsatni rad etdingiz. Bu ruxsat dastur funksiyalarining to\'g\'ri ishlashi uchun muhim. Iltimos, sozlamalardan bunga ruxsat bering.</string>
+    <string name="location">Joylashuv</string>
+    <string name="location_background_1">Orqa fon joylashuvi</string>
+    <string name="overlay_perm">Dasturlar ustidan ochilish</string>
+    <string name="batter_perm">Quvvat tejash rejimini faolsizlantirish</string>
+    <string name="messag">Xabar</string>
+    <string name="driver_running">Buyurtmada</string>
+    <string name="info_in_driver_running">Yurilgan masofani aniq hisoblashi uchun dasturni ochiq tuting.</string>
+    <string name="permission_background_location">Bekjaan Taxi (Driver) ilovasi joylashuv ma\'lumotlaringizni fonda to\'plash, kuzatish va uzatish uchun ruxsat so\'raydi.</string>
+    <string name="reason_main_background">Bu sizning atrofingizdagi buyurtmalarni topish va harakatlaringizni kuzatish uchun ishlatiladi, hatto ilova yopiq bo\'lsa ham. Ushbu ma\'lumotlar Bekjaan Taxi mijozlariga xizmat ko‘rsatish va xavfsizlik maqsadida ishlatiladi.</string>
+
+</resources>

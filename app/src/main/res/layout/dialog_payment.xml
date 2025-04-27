@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="@dimen/_10sdp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="@dimen/_8sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_20sdp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/hisobni_to_ldirish"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/to_lov_tizimini_tanlang"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    android:id="@+id/buttonClick"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    app:cardBackgroundColor="#F8F9F8"
+                    app:strokeWidth="@dimen/_1sdp"
+                    app:strokeColor="#00A9F4"
+                    android:layout_marginVertical="@dimen/_7sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_height="@dimen/_60sdp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:src="@drawable/ic_click"
+                        android:padding="@dimen/_7sdp"
+                        android:contentDescription="@string/payment_click"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"/>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    app:strokeColor="#00A9F4"
+                    android:id="@+id/buttonPayme"
+                    app:cardBackgroundColor="#F8F9F8"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_height="@dimen/_60sdp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/_7sdp"
+                        android:contentDescription="@string/payment_payme"
+                        android:src="@drawable/ic_payme" />
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="0dp"
+                    app:cardCornerRadius="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    app:strokeColor="#00A9F4"
+                    android:id="@+id/buttonUzum"
+                    app:cardBackgroundColor="#F8F9F8"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_height="@dimen/_60sdp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:src="@drawable/logo_uzum"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/payment_uzum"
+                        android:layout_height="match_parent"/>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/summani_kiriting"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/ed_money_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/bg_input_edittext"
+                android:hint="@string/input"
+
+                android:inputType="number"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                android:importantForAutofill="no" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sendMoney_button"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/color_states_materialbutton"
+                android:enabled="false"
+                android:paddingVertical="@dimen/_10sdp"
+                android:text="@string/confirm"
+                android:textAllCaps="false"
+                android:textColor="@color/color__states_text_button"
+                android:textStyle="bold"
+                app:cornerRadius="@dimen/_7sdp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>

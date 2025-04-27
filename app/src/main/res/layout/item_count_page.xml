@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_25sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/blue"
+    android:layout_gravity="center"
+    android:id="@+id/count_badge"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?selectableItemBackground"
+    android:layout_marginVertical="@dimen/_5sdp"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:layout_height="@dimen/_25sdp">
+
+    <TextView
+        android:id="@+id/count_number"
+        android:layout_width="match_parent"
+        android:text="1"
+        android:textSize="@dimen/_16ssp"
+        android:textColor="@color/text_black_white"
+        android:gravity="center"
+        android:layout_height="match_parent"/>
+</com.google.android.material.card.MaterialCardView>

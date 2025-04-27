@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:visibility="invisible"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:src="@drawable/ic_vip"
+            />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageView"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView"
+        app:layout_constraintTop_toTopOf="@+id/circleImageView"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation_vip" />
+
+<!--    <ImageView-->
+<!--        android:layout_width="@dimen/_30sdp"-->
+<!--        android:layout_height="@dimen/_30sdp"-->
+<!--        android:src="@drawable/ic_crown"-->
+<!--        android:rotation="40"-->
+<!--        android:layout_marginTop="@dimen/_5sdp"-->
+<!--        android:layout_marginEnd="@dimen/_minus15sdp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/circleImageView"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/circleImageView"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/circleImageView" />-->
+
+<!--    <com.google.android.material.card.MaterialCardView-->
+<!--        android:id="@+id/materialCardView2"-->
+<!--        android:layout_width="@dimen/_28sdp"-->
+<!--        android:layout_height="@dimen/_28sdp"-->
+<!--        app:cardBackgroundColor="#CC000000"-->
+<!--        android:layout_marginHorizontal="@dimen/_5sdp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/driverNameTextView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/driverNameTextView">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:padding="@dimen/_4sdp"-->
+<!--            android:src="@drawable/ic_crown" />-->
+<!--    </com.google.android.material.card.MaterialCardView>-->
+
+
+    <TextView
+        android:id="@+id/driverNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textFontWeight="500"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circleImageView"
+        app:layout_constraintTop_toTopOf="@+id/circleImageView" />
+
+    <TextView
+        android:id="@+id/driver_id_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:textStyle="bold"
+        android:textColor="@color/text_black_white"
+        app:layout_constraintStart_toStartOf="@+id/driverNameTextView"
+        app:layout_constraintTop_toBottomOf="@+id/driverNameTextView" />
+
+    <TextView
+        android:id="@+id/driverPhoneNumberTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:maxLines="1"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="@+id/driverNameTextView"
+        app:layout_constraintTop_toBottomOf="@+id/driver_id_header" />
+
+
+    <LinearLayout
+        android:id="@+id/active_status_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/status_background"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="@+id/driverPhoneNumberTextView"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView">
+
+        <ImageView
+            android:id="@+id/status_icon"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icons8_correct" />
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:textColor="@color/text_black_white" />
+
+        <ImageView
+            android:id="@+id/adsBadge"
+            android:layout_width="@dimen/_20sdp"
+            android:visibility="invisible"
+            android:src="@drawable/ic_crown"
+            android:layout_height="@dimen/_20sdp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

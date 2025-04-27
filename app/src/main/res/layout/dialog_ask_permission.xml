@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_15sdp"
+    android:layout_marginHorizontal="@dimen/_20sdp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:textColor="@color/text_black_white"
+            android:gravity="center"
+            android:text="@string/sozlamalarni_tekshiring"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/textViewBekjaanTaxi"
+            android:paddingVertical="@dimen/_10sdp"
+            android:text="@string/permission_background_location"
+            android:gravity="center|start"
+            android:shadowDx="1"
+            android:textColor="@color/black"
+            android:shadowDy="1"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:alpha=".8"
+            android:shadowRadius="1"
+            android:lineSpacingExtra="4dp"
+            android:textSize="@dimen/_14ssp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:gravity="center|top"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="\u2022"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:alpha=".8"
+                android:shadowRadius="1"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:lineSpacingExtra="4dp"
+                android:textSize="@dimen/_14ssp"
+                android:text="@string/reason_main_background"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:text="@string/ruxsat_berish"
+            android:id="@+id/button_permissions"
+            android:textAllCaps="false"
+            app:cornerRadius="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:backgroundTint="@color/yellow"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:paddingVertical="@dimen/_12sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:text="@string/o_tkazib_yuborish"
+            android:textAllCaps="false"
+            android:textColor="@color/yellow"
+            app:cornerRadius="@dimen/_20sdp"
+            android:id="@+id/button_skip"
+            android:textStyle="bold"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

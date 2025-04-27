@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dashboard"
+    tools:context=".ui.home.transfer.transferdash.TransferDashboardFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_top"
+        android:elevation="@dimen/_3sdp"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/_15sdp"
+        android:paddingVertical="@dimen/_15sdp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <FrameLayout
+                android:id="@+id/fbn_back_home"
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_gravity="center|top"
+                android:background="@drawable/back_shape"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?selectableItemBackground">
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/icon"
+                    android:padding="@dimen/_4sdp"
+                    android:src="@drawable/ic_arrow_left"
+                    app:tint="#fff" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yours_id"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/driver_id"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@color/text_black_white"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="@dimen/_26sdp"
+                android:layout_height="@dimen/_26sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/balance"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+                <TextView
+                    android:id="@+id/balance_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_22ssp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:id="@+id/transfer_money_button"
+            android:textColor="@color/text_black_white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            app:cornerRadius="@dimen/_7sdp"
+            android:paddingVertical="@dimen/_12sdp"
+            app:icon="@drawable/ic_payment"
+            app:iconTintMode="multiply"
+            app:iconTint="@color/blue"
+            app:strokeWidth="1dp"
+            android:textSize="@dimen/_12ssp"
+            app:strokeColor="#B3999999"
+            app:iconGravity="textStart"
+            android:text="@string/transfers"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+
+            android:textSize="@dimen/_12ssp"
+            android:id="@+id/transaction"
+            android:textColor="@color/text_black_white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            app:strokeWidth="1dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:strokeColor="#B3999999"
+
+            app:iconTint="@color/yellow"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            app:cornerRadius="@dimen/_7sdp"
+            android:paddingVertical="@dimen/_12sdp"
+            app:icon="@drawable/ic_monitoring"
+            app:iconTintMode="multiply"
+            app:iconGravity="textStart"
+            android:text="@string/transaction"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/blue"
+            android:id="@+id/button_transfer"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            app:cornerRadius="@dimen/_7sdp"
+            android:textSize="@dimen/_12ssp"
+            android:paddingVertical="@dimen/_12sdp"
+            app:icon="@drawable/ic_balance"
+            app:iconTintMode="multiply"
+            app:iconGravity="textStart"
+            android:text="@string/fill_balance"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

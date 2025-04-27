@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Taxi" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="statusBarBackground">?colorPrimary</item>
+        <item name="radioButtonStyle">@style/Widget.App.RadioButton</item>
+
+        <item name="android:statusBarColor">#252525</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="MainButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/yellow</item>
+        <item name="cornerRadius">@dimen/_10sdp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="color">#128C7E</item>
+        <item name="android:colorPrimary">#128C7E</item>
+    </style>
+
+    <style name="SecondaryButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">#128C7E</item>
+        <item name="strokeColor">#128C7E</item>
+        <item name="android:colorPrimary">#128C7E</item>
+    </style>
+
+    <style name="AppDialogTheme" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">#128C7E</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">#128C7E</item>
+    </style>
+
+    <style name="ThemeOverlay.App.FloatingActionButton" parent="ThemeOverlay.Material3.FloatingActionButton.Primary">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light">
+        <!-- Customize the theme attributes as needed -->
+
+        <!-- ... -->
+    </style>
+
+</resources>

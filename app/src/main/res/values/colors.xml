@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="only_white">#000</color>
+    <color name="oq">#fff</color>
+    <color name="primaryColor">#FFB200</color>
+    <color name="blue">#407BFF</color>
+    <color name="grey">#B3929294</color>
+    <color name="tblue">#29B6F6</color>
+    <color name="yellow">#F6BB42</color>
+    <color name="yellow1">#F6BB42</color>
+    <color name="red">#DC4532</color>
+    <color name="red1">#DC4532</color>
+    <color name="tred">#E15F5D</color>
+    <color name="green">#00BC13</color>
+    <color name="tgreen">#66BB6A</color>
+    <color name="in_active">#E8E8E8</color>
+
+    <color name="tarif_color">#66BB6A</color>
+    <color name="color_tg">#E7F5FD</color>
+    <color name="color_mobile">#EDF3FF</color>
+    <color name="color_admin">#FFF3E3</color>
+    <color name="color_text_orders">#014EA8</color>
+    <color name="light_gray">#F8F9F8</color>
+
+    <color name="soft_black">#555050</color>
+
+
+    <color name="background_driver_is_order">#fff</color>
+
+    <color name="background_dashboard">#F8F9F8</color>
+
+    <color name="card_color">#fff</color>
+    <color name="active_order_color">#888888</color>
+    <color name="menu_color">#1C1C1E</color>
+    <color name="chart_bg_color">#FFFDF8</color>
+
+    <color name="text_black_white">#000</color>
+    <color name="date_picker_background">#F7F7F8</color>
+
+
+</resources>

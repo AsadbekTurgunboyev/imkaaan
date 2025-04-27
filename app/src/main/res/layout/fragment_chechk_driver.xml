@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_dashboard"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:elevation="@dimen/_3sdp"
+        android:paddingVertical="@dimen/_15sdp"
+        android:background="@drawable/bg_top"
+        android:paddingHorizontal="@dimen/_15sdp"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <FrameLayout
+            android:id="@+id/button_back"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/back_shape"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="invisible"
+            android:foreground="?selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/fbn_back_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/_4sdp"
+                android:src="@drawable/ic_arrow_left"
+                app:tint="#fff"
+                android:contentDescription="@string/icon" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/nazorat"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_20sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/haydovchilar_nazorat_vaqti_kelgan_iltimos_ushbu_so_ralgan_suratlarni_tasvirga_olib_nazorat_ko_rigidan_o_ting"
+                android:layout_height="wrap_content"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:clickable="true"
+
+                        android:focusable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:background="@drawable/shape_add_img"
+                        android:layout_height="@dimen/_80sdp">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/_1sdp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/upload_left"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_upload"
+                                android:layout_gravity="center"/>
+                            <ImageView
+                                android:id="@+id/upload_img_left"
+                                android:layout_width="match_parent"
+                                android:layout_gravity="center"
+                                android:scaleType="centerCrop"
+                                android:layout_height="match_parent"/>
+                        </com.google.android.material.card.MaterialCardView>
+
+
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="@string/mashinaning_chap_tomoni"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="@dimen/_10sdp"
+
+                        android:background="@drawable/shape_add_img"
+                        android:layout_height="@dimen/_80sdp">
+
+
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/_1sdp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/upload_right"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_upload"
+                                android:layout_gravity="center"/>
+                            <ImageView
+                                android:id="@+id/upload_img_right"
+                                android:layout_width="match_parent"
+                                android:layout_gravity="center"
+                                android:scaleType="centerCrop"
+                                android:layout_height="match_parent"/>
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:text="@string/mashinaning_o_ng_tomoni"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:clickable="true"
+
+                        android:focusable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:background="@drawable/shape_add_img"
+                        android:layout_height="@dimen/_80sdp">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/_1sdp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/upload_front"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_upload"
+                                android:layout_gravity="center"/>
+                            <ImageView
+                                android:id="@+id/upload_img_front"
+                                android:layout_width="match_parent"
+                                android:layout_gravity="center"
+                                android:scaleType="centerCrop"
+                                android:layout_height="match_parent"/>
+                        </com.google.android.material.card.MaterialCardView>
+
+
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="@string/mashinaning_old_tomoni"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="@dimen/_10sdp"
+
+                        android:background="@drawable/shape_add_img"
+                        android:layout_height="@dimen/_80sdp">
+
+
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/_1sdp"
+                            android:clickable="true"
+                            android:id="@+id/upload_back"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_upload"
+                                android:layout_gravity="center"/>
+                            <ImageView
+                                android:id="@+id/upload_img_back"
+
+                                android:layout_width="match_parent"
+                                android:layout_gravity="center"
+                                android:scaleType="centerCrop"
+                                android:layout_height="match_parent"/>
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:text="@string/mashinaning_orqa_tomoni"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:clickable="true"
+
+                        android:focusable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:background="@drawable/shape_add_img"
+                        android:layout_height="@dimen/_80sdp">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/_1sdp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/upload_front_chair"
+
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_upload"
+                                android:layout_gravity="center"/>
+                            <ImageView
+                                android:id="@+id/upload_img_front_chair"
+
+                                android:layout_width="match_parent"
+                                android:layout_gravity="center"
+                                android:scaleType="centerCrop"
+                                android:layout_height="match_parent"/>
+                        </com.google.android.material.card.MaterialCardView>
+
+
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="@string/mashinaning_old_o_rindiqlari"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="@dimen/_10sdp"
+
+                        android:background="@drawable/shape_add_img"
+                        android:layout_height="@dimen/_80sdp">
+
+
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/_1sdp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/upload_back_chair"
+
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_upload"
+                                android:layout_gravity="center"/>
+                            <ImageView
+                                android:id="@+id/upload_img_back_chair"
+
+                                android:layout_width="match_parent"
+                                android:layout_gravity="center"
+                                android:scaleType="centerCrop"
+                                android:layout_height="match_parent"/>
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:text="@string/mashinaning_orqa_o_rindiqlari"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:clickable="true"
+
+                        android:focusable="true"
+                        android:foreground="?selectableItemBackground"
+                        android:background="@drawable/shape_add_img"
+                        android:layout_height="@dimen/_80sdp">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/_1sdp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/upload_number"
+
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_upload"
+                                android:layout_gravity="center"/>
+                            <ImageView
+                                android:id="@+id/upload_img_number"
+
+                                android:layout_width="match_parent"
+                                android:layout_gravity="center"
+                                android:scaleType="centerCrop"
+                                android:layout_height="match_parent"/>
+                        </com.google.android.material.card.MaterialCardView>
+
+
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="@string/mashina_raqami_selfi_bilan"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:background="@drawable/shape_add_img"
+                        android:layout_height="@dimen/_80sdp">
+
+
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_margin="@dimen/_1sdp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/upload_license"
+
+                            android:foreground="?selectableItemBackground"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_upload"
+                                android:layout_gravity="center"/>
+                            <ImageView
+                                android:id="@+id/upload_img_license"
+
+                                android:layout_width="match_parent"
+                                android:layout_gravity="center"
+                                android:scaleType="centerCrop"
+                                android:layout_height="match_parent"/>
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:text="@string/haydovchilik_guvohnomasi"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonConfirm"
+                android:layout_width="match_parent"
+                android:text="@string/confirm"
+                app:cornerRadius="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                app:backgroundTint="@color/text_black_white"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

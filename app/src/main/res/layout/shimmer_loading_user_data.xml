@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/driverNameTextView"
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="wrap_content"
+        android:text="Salom"
+        android:textColor="#DDD"
+        android:background="@drawable/shape_text_shimmer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textFontWeight="500"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/driver_id_header"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_text_shimmer"
+        android:text="123"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:textStyle="bold"
+        android:textColor="#DDD" />
+
+    <TextView
+        android:id="@+id/driverPhoneNumberTextView"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:textColor="#DDD"
+        android:text="123123123231"
+        android:background="@drawable/shape_text_shimmer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</LinearLayout>

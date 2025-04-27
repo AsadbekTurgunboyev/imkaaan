@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_160sdp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom">
+
+        <View
+
+            android:layout_width="20dp"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/custom_progress_drawable" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:paddingHorizontal="@dimen/_5sdp"
+
+            android:layout_marginTop="@dimen/_8sdp"
+            android:clickable="true"
+            android:minEms="1"
+
+            android:background="@drawable/custom_progress_drawable"
+            android:textColor="#e0e0e0"
+            android:focusable="true"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom">
+
+        <View
+
+            android:layout_width="20dp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/custom_progress_drawable" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:clickable="true"
+            android:minEms="1"
+
+
+            android:background="@drawable/custom_progress_drawable"
+            android:textColor="#e0e0e0"
+            android:focusable="true"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom">
+
+        <View
+
+            android:layout_width="20dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/custom_progress_drawable" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:clickable="true"
+            android:minEms="1"
+            android:background="@drawable/custom_progress_drawable"
+            android:textColor="#e0e0e0"
+            android:focusable="true"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom">
+
+        <View
+
+            android:layout_width="20dp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/custom_progress_drawable" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:clickable="true"
+            android:minEms="1"
+            android:background="@drawable/custom_progress_drawable"
+            android:textColor="#e0e0e0"
+            android:focusable="true"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom">
+
+        <View
+
+            android:layout_width="20dp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/custom_progress_drawable" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:clickable="true"
+            android:minEms="1"
+
+            android:background="@drawable/custom_progress_drawable"
+            android:textColor="#e0e0e0"
+            android:focusable="true"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom">
+
+        <View
+
+            android:layout_width="20dp"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/custom_progress_drawable" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:clickable="true"
+            android:minEms="1"
+
+            android:background="@drawable/custom_progress_drawable"
+            android:textColor="#e0e0e0"
+            android:focusable="true"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom">
+
+        <View
+
+            android:layout_width="20dp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/custom_progress_drawable" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:clickable="true"
+            android:minEms="1"
+
+            android:background="@drawable/custom_progress_drawable"
+            android:textColor="#e0e0e0"
+            android:focusable="true"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom">
+
+        <View
+
+            android:layout_width="20dp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/custom_progress_drawable" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:clickable="true"
+            android:minEms="1"
+
+            android:background="@drawable/custom_progress_drawable"
+            android:textColor="#e0e0e0"
+            android:focusable="true"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.taxi.ui.home.dashboard.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard"/>
+
+    <fragment
+        android:id="@+id/choosingLanguageFragment"
+        android:name="com.example.taxi.ui.home.menu.language.ChoosingLanguageFragment"
+        android:label="fragment_choosing_language"
+        tools:layout="@layout/fragment_choosing_language"/>
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.example.taxi.ui.home.service.ServiceFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_service" />
+    <fragment
+        android:id="@+id/tarifFragment"
+        android:name="com.example.taxi.ui.home.tarif.TarifFragment"
+        android:label="fragment_tarif"
+        tools:layout="@layout/fragment_tarif" />
+    <fragment
+        android:id="@+id/orderFragment"
+        android:name="com.example.taxi.ui.home.order.OrderFragment"
+        android:label="fragment_order"
+        tools:layout="@layout/fragment_order" />
+    <fragment
+        android:id="@+id/driverFragment"
+        android:name="com.example.taxi.ui.home.driver.DriverFragment"
+        android:label="fragment_driver"
+        tools:layout="@layout/fragment_driver" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.taxi.ui.home.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/transferMoneyFragment"
+        android:name="com.example.taxi.ui.home.transfer.transfermoney.TransferMoneyFragment"
+        android:label="fragment_transfer_money"
+        tools:layout="@layout/fragment_transfer_money" />
+    <fragment
+        android:id="@+id/transferDashboardFragment"
+        android:name="com.example.taxi.ui.home.transfer.transferdash.TransferDashboardFragment"
+        android:label="fragment_transfer_dashboard"
+        tools:layout="@layout/fragment_transfer_dashboard" />
+    <fragment
+        android:id="@+id/transferHistoryFragment"
+        android:name="com.example.taxi.ui.home.transfer.transferhistory.TransferHistoryFragment"
+        android:label="fragment_transfer_history"
+        tools:layout="@layout/fragment_transfer_history" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.taxi.ui.home.menu.about.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/FAQFragment"
+        android:name="com.example.taxi.ui.home.menu.faq.FAQFragment"
+        android:label="FAQFragment" />
+    <fragment
+        android:id="@+id/taximeterFragment"
+        android:name="com.example.taxi.ui.taxometer.TaximeterFragment"
+        android:label="fragment_taximeter"
+        tools:layout="@layout/fragment_taximeter" />
+    <fragment
+        android:id="@+id/shareQRFragment"
+        android:name="com.example.taxi.ui.home.qrcode.ShareQRFragment"
+        android:label="fragment_share_q_r"
+        tools:layout="@layout/fragment_share_q_r" />
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.taxi.ui.home.message.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/checkDriverFragment"
+        android:name="com.example.taxi.ui.check.CheckDriverFragment"
+        android:label="CheckDriverFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.taxi.ui.home.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.taxi.ui.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/chooseSettingsFragment"
+        android:name="com.example.taxi.ui.settings.ChooseSettingsFragment"
+        android:label="ChooseSettingsFragment" />
+</navigation>

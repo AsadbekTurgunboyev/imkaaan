@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "uz.insoft.gotaxidriver",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 57,
+      "versionName": "9.4.2",
+      "outputFile": "app-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

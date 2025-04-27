@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/liner_container"
+    android:gravity="bottom|center"
+    android:layout_gravity="bottom">
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_8ssp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:layout_marginVertical="@dimen/_3sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal" />
+    <View
+        android:id="@+id/progressBar"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/custom_progress_drawable" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_10ssp"
+        android:background="@drawable/bg_tab"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingHorizontal="@dimen/_7sdp"
+        android:gravity="center_horizontal" />
+</LinearLayout>

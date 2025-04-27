@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tizimga_kirish">Войти в систему</string>
+    <string name="tizimga_kirish_uchun_telefon_raqamingizni_kiriting">Введите ваш номер телефона, чтобы войти в систему</string>
+    <string name="telefon_raqamingiz">Ваш номер телефона</string>
+    <string name="input_password">На ваш номер был отправлен 4-значный код, введите этот код</string>
+    <string name="resend_sms">Отправить ещё раз</string>
+    <string name="input_name">Введите ваше имя!</string>
+    <string name="input_surname">Введите вашу фамилию!</string>
+    <string name="input_birth">Введите дату рождения</string>
+    <string name="avtomobil_markasini_kiriting">Выберите марку автомобиля!</string>
+    <string name="avtomobil_rangini_kiriting">Выберите цвет автомобиля!</string>
+    <string name="avtomobil_pozitsiyasini_kiriting">Выберите</string>
+    <string name="tariflar">Тарифы</string>
+    <string name="icon">Иконка</string>
+    <string name="xizmatlar">Услуги</string>
+    <string name="tarix">История</string>
+    <string name="chiqish">Выход</string>
+    <string name="buyurtmalar">Заказы</string>
+    <string name="balance">Баланс</string>
+    <string name="til">Язык</string>
+    <string name="rus">Русский</string>
+    <string name="uzb">О\'zbek tili</string>
+    <string name="krill">Узбекский язык</string>
+    <string name="about_us">О нас</string>
+    <string name="faq">FAQ</string>
+    <string name="baho_bering">Оцените наше приложение!</string>
+    <string name="navigation_drawer_open">Открыть</string>
+    <string name="navigation_drawer_cloes">Закрыть</string>
+    <string name="service">Сервисы</string>
+    <string name="konditsioner">Кондиционер</string>
+    <string name="pochta">Почта</string>
+    <string name="peregruz">Перегруз</string>
+    <string name="tomda_yuk">Груз в кузове</string>
+    <string name="salonda_yuk">Груз в салоне</string>
+    <string name="raqamni_kiriting">Введите номер автомобиля правильно!</string>
+    <string name="no_order">В данный момент нет активных заказов!</string>
+    <string name="pls_wait">Пожалуйста, подождите немного, скоро обязательно поступят новые заказы!</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="income">Доход</string>
+    <string name="outcome">Расход</string>
+    <string name="enter_range">Введите временной диапазон!</string>
+    <string name="location_permission">Разрешение на определение местоположения</string>
+    <string name="grant_access">Дать доступ</string>
+
+    <string name="grant_permission_title">Дать разрешение</string>
+    <string name="bg_permission_message">Мы просим вас предоставить разрешение на определение местоположения для корректной работы приложения</string>
+    <string name="need_your_bg_location_permission">Мы просим вас предоставить разрешение на определение местоположения для корректной работы приложения</string>
+    <string name="we_will_not_store_any_of_your_data_and_adhering_to_our_privacy_agreement">Приложение не собирает ваши данные</string>
+    <string name="all_allow">Разрешить</string>
+    <string name="all">Все</string>
+    <string name="yo_lovchi_izohi">Комментарий пассажира</string>
+    <string name="accepted">Принять</string>
+    <string name="boshlang_ich_summa">Начальная сумма:</string>
+    <string name="checked_text">Загрузка</string>
+    <string name="unchecked_text">Взять пассажира</string>
+    <string name="start_stop_button">Кнопка старт/стоп</string>
+    <string name="pulli_kutish">Ожидание платного</string>
+    <string name="yetib_keldingiz">Вы прибыли!</string>
+    <string name="mijozgacha">До пассажира</string>
+    <string name="bepul_kutish">Бесплатное ожидание</string>
+    <string name="buyurtmada">В заказе</string>
+    <string name="wait">Ожидание</string>
+    <string name="qo_ng_iroq">Звонок</string>
+    <string name="buyurtmalar_tarixi">История заказов</string>
+    <string name="umumiy_summa">Общая сумма</string>
+    <string name="notification_channel_name">Канал</string>
+    <string name="yours_id">Ваш ID</string>
+    <string name="fill_balance">Пополнить баланс</string>
+    <string name="money_transfer">Денежные переводы</string>
+    <string name="input_driver_id">Введите ID водителя</string>
+    <string name="transfer_money_value">Сумма перевода</string>
+    <string name="error">Ошибка!</string>
+    <string name="congratulation">Поздравляем</string>
+    <string name="transfer_is_successful">Перевод успешно выполнен</string>
+    <string name="summa">Сумма</string>
+    <string name="warning">Внимание!</string>
+    <string name="is_verify_payment">Вы действительно хотите перевести деньги этому водителю?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="exit">Выход</string>
+    <string name="reason">Причина</string>
+    <string name="time">Время</string>
+    <string name="transaction">Транзакции</string>
+    <string name="filter">Фильтр</string>
+    <string name="remove_filter">Удалить фильтр</string>
+    <string name="choose_date">Выберите дату</string>
+    <string name="from">От</string>
+    <string name="to">До</string>
+    <string name="choose">Выберите</string>
+    <string name="type">Тип</string>
+    <string name="no_found">Информация не найдена!</string>
+    <string name="transfers">Денежные переводы</string>
+    <string name="about_transaction">О транзакции</string>
+    <string name="before_balance">Баланс на тот момент</string>
+    <string name="value">Стоимость</string>
+    <string name="id">ID</string>
+    <string name="status">Статус</string>
+    <string name="success">Успешно</string>
+    <string name="cancelOrder">Отменено</string>
+    <string name="admin">Администратор</string>
+    <string name="tg">Telegram</string>
+    <string name="mobile">Мобильный</string>
+    <string name="fare">Тариф</string>
+    <string name="wait_money">Ожидание платного</string>
+    <string name="wait_money_cost">Ожидание платного сумма</string>
+    <string name="get_customer">Взять пассажира</string>
+    <string name="sign_out">Выход</string>
+    <string name="show_message_for_status">Чтобы получить заказ, вам нужно быть \'Подтвержденным\'! Свяжитесь с операторами для подтверждения.\n\nПонятно</string>
+    <string name="see">Понятно</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="are_you_sure">Вы действительно хотите выйти из приложения?</string>
+    <string name="your_status">Ваш статус</string>
+    <string name="distance">Расстояние</string>
+    <string name="texpassport_kiriting">Введите техпаспорт!</string>
+    <string name="input_phone_number">Введите ваш номер телефона!</string>
+    <string name="phone">Телефон</string>
+    <string name="kodni_kiriting">Введите код</string>
+    <string name="ma_lumotlarni_kiriting">Введите информацию</string>
+    <string name="shaxsiy_ma_lumotlar">Личная информация</string>
+    <string name="name">Имя</string>
+    <string name="input">Введите</string>
+    <string name="surname">Фамилия</string>
+    <string name="jinsingiz">Ваш пол</string>
+    <string name="male">Мужчина</string>
+    <string name="female">Женщина</string>
+    <string name="birthday">Дата вашего рождения</string>
+    <string name="_12_08_1998" translatable="false">(12.08.1998)</string>
+    <string name="title_intro_phone">Связь с операторами</string>
+    <string name="message_intro_phone">Нажав эту кнопку, вы сможете позвонить операторам!\n\nЧтобы продолжить, нажмите кнопку вызова</string>
+    <string name="title_intro_socket">Вы не в сети</string>
+    <string name="message_intro_socket">Зеленый свет - связь с нами установлена\nКрасный свет - нет связи, это скорее всего означает, что ваш мобильный сеть не работает!</string>
+    <string name="bekor_qilish">Отменить</string>
+    <string name="you_are_work">Вы работаете</string>
+    <string name="understand">Понятно</string>
+    <string name="comment">Комментарий:</string>
+    <string name="recconnect">Восстанавливаю соединение</string>
+    <string name="inwork">Работе</string>
+
+    <string name="neеded_permission">Требуется разрешение!</string>
+    <string name="draw_permission">Этому приложению требуется разрешение на "Отображение поверх других приложений". Пожалуйста, предоставьте его в настройках.</string>
+
+    <string name="go_to_settings">Перейти к настройкам</string>
+    <string name="km">км</string>
+
+    <string name="order_canceled">Заказ отменен!</string>
+    <string name="you_can_continue">Вы можете продолжить с новым заказом.</string>
+    <string name="not_found_driver">Водитель не найден!</string>
+    <string name="downloading">Загрузка..</string>
+    <string name="arrive">Прибыл</string>
+    <string name="wait_money_time">Время ожидания денег</string>
+
+    <string name="finish">Завершить</string>
+    <string name="lets_go">Поехали</string>
+    <string name="hisobni_to_ldirish">Пополнить счет</string>
+    <string name="tarif_yoqildi">Тариф включен!</string>
+    <string name="tarif_nofaol">Тариф отключен!</string>
+    <string name="tarif_rejim">Режим тарифа</string>
+    <string name="is_need_permission">Без разрешения на местоположение невозможно полноценное использование приложения!</string>
+    <string name="ruxsat_berish">Разрешить</string>
+    <string name="qo_n_g_iroq_qilish">Звонить</string>
+    <string name="qayta_urinish">Попробовать снова</string>
+    <string name="bloklangan_raqam">Заблокированный номер!</string>
+    <string name="you_are_connect_to_socket">Вы сейчас на работе. Для выхода необходимо отключить \'Работе режим\'!</string>
+
+
+    <string name="yo_lkira_haqqi">Стоимость проезда</string>
+    <string name="hisoblagich_bo_yicha_yo_lkira_haqqi_safar_oxiridagi_yo_lkira_haqidan_biroz_farq_qilishi_mumkin">Стоимость проезда по счетчику может незначительно отличаться от стоимости в конце поездки.</string>
+    <string name="cannot_connect_to_server">Ошибка при подключении к серверу!</string>
+    <string name="no_internet">Нет подключения к интернету</string>
+    <string name="unknow_error">Произошла неожиданная ошибка</string>
+    <string name="buyurtmani_rostdan_ham_yakunlamoqchimisiz">Вы действительно хотите завершить заказ?</string>
+    <string name="buyurtmani_yakunlaganingizdan_so_ng_u_yakunlangan_buyurtmalar_safiga_qo_shiladi_va_u_haqidagi_ma_lumotlarni_tarix_bo_limidan_topishingiz_mumkin_bo_ladi">После завершения вашего заказа, он будет добавлен в список завершенных заказов, и вы сможете найти информацию о нем в разделе \'История\'.</string>
+    <string name="yakunlash">Завершить</string>
+    <string name="taximeter">Тахометер</string>
+    <string name="nazorat">Контроль</string>
+    <string name="haydovchilar_nazorat_vaqti_kelgan_iltimos_ushbu_so_ralgan_suratlarni_tasvirga_olib_nazorat_ko_rigidan_o_ting">Водители, пришло время осмотра. Пожалуйста, возьмите фотографии, указанные ниже, и перейдите к осмотру!</string>
+    <string name="mashinaning_chap_tomoni">Левая сторона машины</string>
+    <string name="mashinaning_o_ng_tomoni">Правая сторона машины</string>
+    <string name="mashinaning_old_tomoni">Передняя сторона машины</string>
+    <string name="mashinaning_orqa_tomoni">Задняя сторона машины</string>
+    <string name="mashinaning_old_o_rindiqlari">Повреждения передней стороны машины</string>
+    <string name="mashinaning_orqa_o_rindiqlari">Повреждения задней стороны машины</string>
+    <string name="mashina_raqami_selfi_bilan">Сфотографируйте номер машины селфи</string>
+    <string name="haydovchilik_guvohnomasi">Водительское удостоверение</string>
+
+    <string name="summani_kiriting">Введите сумму</string>
+    <string name="to_lov_tizimini_tanlang">Выберите платежную систему</string>
+
+    <string-array name="month_names">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+    <string name="bonus_orqali_to_lov">Оплата через бонус</string>
+    <string name="bonus_summani_kiriting">Введите сумму бонуса</string>
+    <string name="tasdiqlash_kodini_kiriting">Введите код подтверждения</string>
+    <string name="qr">Бонус QR</string>
+    <string name="message">Сообщения</string>
+    <string name="hello_blank_fragment">Привет, пустой фрагмент</string>
+    <string name="xabarlar_tarixi">История сообщений</string>
+    <string name="about_order">О заказе</string>
+    <string name="price">Цена</string>
+    <string name="success_check_photo">Вы успешно прошли проверку фото!</string>
+    <string name="foto_nazorat">Контроль фото</string>
+
+    <string name="settings">Настройки</string>
+    <string name="my_profile">Мой профиль</string>
+
+    <string name="taxminiy_narx">Ориентировочная цена</string>
+    <string name="new_order">Новый заказ</string>
+    <string name="auto">Система</string>
+    <string name="night">Ночной</string>
+    <string name="day">Дневной</string>
+    <string name="small">Маленький</string>
+    <string name="large">Большой</string>
+    <string name="navigation">Навигация</string>
+    <string name="theme">Тема</string>
+    <string name="permission_denied">Разрешение отказано</string>
+    <string name="ruxsat_berilmagan">"Вы отказали в разрешении для %1$s. Это разрешение важно для корректной работы функций приложения. Пожалуйста, предоставьте это разрешение в настройках.</string>
+    <string name="location">Местоположение</string>
+    <string name="location_background_1">Фон местоположения</string>
+    <string name="overlay_perm">Наложение поверх приложений</string>
+    <string name="batter_perm">Отключение режима экономии энергии</string>
+    <string name="messag">Сообщение</string>
+
+    <string name="yaqin_atrofdagi_buyurtmani_topish_hattoki_fonda_bo_lsa_ham">Поиск ближайших заказов, даже если приложение работает в фоновом режиме.</string>
+    <string name="harakatlanishingizni_kuzatish_va_ularni_bekjaan_taxi_mijozlari_uchun_ko_rsatish_va_xabardor_qilish">Отслеживание вашего движения и уведомление клиентов Bekjaan Taxi.</string>
+    <string name="sozlamalarni_tekshiring">Проверьте настройки!</string>
+    <string name="bekjaan_taxi_driver_ilovasi_joylashuvingizni_doimiy_ravishda_kuzatishga_ruxsat_berishingizni_so_raydi_ushbu_dastur_joylashuvingizdan_quyidagilar_uchun_foydalanadi">Приложение Bekjaan Taxi (Driver) просит разрешить постоянное отслеживание вашего местоположения. Это приложение использует ваше местоположение для следующих целей:</string>
+    <string name="o_tkazib_yuborish">Пропустить</string>
+    <string name="ruxsatnomalar">Разрешения</string>
+    <string name="dasturdan_to_laqonli_foydalanishingiz_uchun_ushbu_ruxsatnomalarga_ruxsat_berishingiz_zarur">Для полного использования приложения необходимо предоставить эти разрешения.</string>
+    <string name="sozlamalarni_tekshirish">Проверьте настройки</string>
+    <string name="joylashuv_uchun_ruxsatlar_va_gps">Разрешения для местоположения и GPS</string>
+    <string name="aniq_joylashuv_uchun_ruxsat">Разрешение для точного местоположения</string>
+    <string name="boshqa_dasturlar_ustidan_ochilish">Открытие поверх других приложений</string>
+    <string name="quvvat_tejashni_o_chirish">Отключение энергосбережения</string>
+    <string name="battery_permission">Для постоянной работы приложения Bekjaan Taxi (Driver) в фоновом режиме необходимо отключить режим энергосбережения.\nЭто можно отключить позже в разделе настроек.</string>
+</resources>

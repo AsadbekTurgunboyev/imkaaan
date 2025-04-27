@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="@dimen/_5sdp"
+    android:paddingVertical="@dimen/_5sdp"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:contentDescription="@string/icon"
+        android:src="@drawable/ic_conditsione"
+        app:tint="#DDDDDD" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/konditsioner"
+            android:layout_gravity="start"
+            android:background="#DDDDDD"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#DDDDDD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000 so'm"
+            android:background="#DDDDDD"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textColor="#DDDDDD" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="false"
+        android:theme="@style/MyIOSSwitch"
+        android:thumb="@drawable/thumb_selector"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2p"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewp"
+        app:thumbTint="#DDDDDD"
+        app:track="@drawable/track_selector"
+        app:trackTint="#DDDDDD" />
+</LinearLayout>
+
+

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.permission.PermissionCheckActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:layout_height="?actionBarSize">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/ruxsatnomalar"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/text_black_white"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:alpha=".8"
+        android:layout_height="@dimen/_5sdp"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:id="@+id/ask_allow"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/dasturdan_to_laqonli_foydalanishingiz_uchun_ushbu_ruxsatnomalarga_ruxsat_berishingiz_zarur"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/sozlamalarni_tekshirish"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:textColor="@color/text_black_white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:id="@+id/ask_location"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?selectableItemBackground"
+
+                android:paddingVertical="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:layout_width="@dimen/_18sdp"
+                    android:src="@drawable/ic_crosshair"
+                    app:tint="@color/text_black_white"
+                    android:layout_height="@dimen/_18sdp"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/text_black_white"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:text="@string/aniq_joylashuv_uchun_ruxsat"
+                    android:layout_height="wrap_content"/>
+
+
+                <ImageView
+                    android:id="@+id/img_location"
+                    android:layout_width="@dimen/_26sdp"
+                    android:src="@drawable/ic_check"
+                    android:layout_height="@dimen/_26sdp" />
+            </LinearLayout>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/ask_background_location"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?selectableItemBackground"
+
+                android:paddingVertical="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:layout_width="@dimen/_18sdp"
+                    android:src="@drawable/ic_mappin"
+                    app:tint="@color/text_black_white"
+                    android:layout_height="@dimen/_18sdp"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/text_black_white"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:text="@string/joylashuv_uchun_ruxsatlar_va_gps"
+                    android:layout_height="wrap_content"/>
+
+
+                <ImageView
+                    android:id="@+id/img_gps"
+                    android:layout_width="@dimen/_26sdp"
+                    android:src="@drawable/ic_check"
+                    android:layout_height="@dimen/_26sdp" />
+            </LinearLayout>
+
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/ask_overlay"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?selectableItemBackground"
+
+                android:paddingVertical="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:layout_width="@dimen/_18sdp"
+                    app:tint="@color/text_black_white"
+                    android:src="@drawable/ic_arrowsinsimple"
+                    android:layout_height="@dimen/_18sdp"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/text_black_white"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:text="@string/boshqa_dasturlar_ustidan_ochilish"
+                    android:layout_height="wrap_content"/>
+
+
+                <ImageView
+                    android:id="@+id/img_overlay"
+                    android:layout_width="@dimen/_26sdp"
+                    android:src="@drawable/ic_check"
+                    android:layout_height="@dimen/_26sdp" />
+            </LinearLayout>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/ask_battery"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?selectableItemBackground"
+                android:paddingVertical="@dimen/_5sdp"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageView
+                    android:layout_width="@dimen/_18sdp"
+                    android:src="@drawable/ic_batterycharging"
+                    android:layout_height="@dimen/_18sdp"
+                    app:tint="@color/text_black_white" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/text_black_white"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:text="@string/quvvat_tejashni_o_chirish"
+                    android:layout_height="wrap_content"/>
+
+
+                <ImageView
+                    android:id="@+id/img_battery"
+                    android:layout_width="@dimen/_26sdp"
+                    android:src="@drawable/ic_check"
+                    android:layout_height="@dimen/_26sdp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:text="@string/confirm"
+        android:id="@+id/button_confirm_permissions"
+        android:textAllCaps="false"
+        android:layout_marginVertical="@dimen/_10sdp"
+        app:cornerRadius="@dimen/_20sdp"
+        app:backgroundTint="@color/yellow"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingVertical="@dimen/_12sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

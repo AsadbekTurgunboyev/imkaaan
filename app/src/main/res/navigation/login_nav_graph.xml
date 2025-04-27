@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_nav_graph"
+    app:startDestination="@id/nav_input_PhoneFragment">
+
+    <fragment
+        android:id="@+id/nav_input_PhoneFragment"
+        android:name="com.example.taxi.ui.login.inputphone.InputPhoneFragment"
+        android:label="fragment_input_phone"
+        tools:layout="@layout/fragment_input_phone" />
+    <fragment
+        android:id="@+id/inputPasswordFragment"
+        android:name="com.example.taxi.ui.login.inputpassword.InputPasswordFragment"
+        android:label="fragment_input_password"
+        tools:layout="@layout/fragment_input_password" />
+    <fragment
+        android:id="@+id/personalDataFragment"
+        android:name="com.example.taxi.ui.login.personaldata.PersonalDataFragment"
+        android:label="fragment_personal_data"
+        tools:layout="@layout/fragment_personal_data" />
+    <fragment
+        android:id="@+id/carDataFragment"
+        android:name="com.example.taxi.ui.login.cardata.CarDataFragment"
+        android:label="fragment_car_data"
+        tools:layout="@layout/fragment_car_data" />
+    <fragment
+        android:id="@+id/fillSelfieFragment"
+        android:name="com.example.taxi.ui.login.selfie.FillSelfieFragment"
+        android:label="fragment_fill_selfie"
+        tools:layout="@layout/fragment_fill_selfie" />
+</navigation>
