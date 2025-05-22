@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "uz.insoft.ajr_taxi_driver",
+  "applicationId": "uz.insoft.win_taxi_driver",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 62,
-      "versionName": "9.4.25",
+      "versionCode": 81,
+      "versionName": "9.4.6",
       "outputFile": "app-release.apk"
     }
   ],

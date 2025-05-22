@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Ajr Taxi(Driver)</string>
+    <string name="app_name" translatable="false">Imkaan Taxi</string>
     <string name="tizimga_kirish">Tizimga kirish</string>
     <string name="tizimga_kirish_uchun_telefon_raqamingizni_kiriting">Tizimga kirish uchun telefon raqamingizni kiriting</string>
     <string name="telefon_raqamingiz">Telefon raqamingiz</string>

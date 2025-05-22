@@ -293,6 +293,7 @@ class DriveFinishDialog(val raceId: Long, val viewModel: DriveReportViewModel) :
         var totalPrice = 0.0
         var currentDistance = 0.0
 
+        val firstPrice: Int = mileageData[0].price
         pairList.forEach { pair ->
             val (locationType, distance) = pair
             var remainingDistance = distance
@@ -316,7 +317,11 @@ class DriveFinishDialog(val raceId: Long, val viewModel: DriveReportViewModel) :
         }
 
 
-        return totalPrice
+        if (currentDistance<1){
+            return (firstPrice * 1).toDouble()
+        }else{
+            return totalPrice
+        }
     }
 
     private fun renderAnalyticsReportData(driveAnalyticsData: DriveAnalyticsData) {

@@ -15,11 +15,11 @@ android {
 
     defaultConfig {
 //        uz.insoft.AlifTaxi
-        applicationId "uz.insoft.ajr_taxi_driver"
+        applicationId "ae.imkaan.driver"
         minSdk 24
         targetSdk 34
-        versionCode 62
-        versionName "9.4.25"
+        versionCode 67
+        versionName "9.4.19"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 

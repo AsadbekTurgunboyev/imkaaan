@@ -19,4 +19,8 @@
     <color name="yellow1">#F6BB42</color>
     <color name="red1">#DC4532</color>
 
+    <color name="new_text_color">#ffffff</color>
+    <color name="new_background_color">#000000</color>
+
+
 </resources>

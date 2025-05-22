@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     app:cardCornerRadius="@dimen/_14sdp"
-    app:strokeColor="#B3000000"
+    app:strokeColor="#40424B"
     app:strokeWidth="1dp"
     android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
-        android:background="@color/black"
+        android:background="#080B21"
         android:layout_height="match_parent">
 
         <ImageView
@@ -18,7 +18,7 @@
             android:layout_width="@dimen/_50sdp"
             android:layout_height="@dimen/_50sdp"
             android:padding="@dimen/_4sdp"
-            android:src="@drawable/ajr_taxi"
+            android:src="@drawable/imkaan"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

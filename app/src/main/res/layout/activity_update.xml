@@ -25,7 +25,7 @@
         android:layout_marginTop="@dimen/_20sdp"
         android:paddingStart="@dimen/_15sdp"
         android:paddingEnd="@dimen/_15sdp"
-        android:text="Ajr taxi(Driver) ilovasini yangi versiyaga yangilashingiz lozim."
+        android:text="Koson 1419(Driver) ilovasini yangi versiyaga yangilashingiz lozim."
 
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/text_black_white"

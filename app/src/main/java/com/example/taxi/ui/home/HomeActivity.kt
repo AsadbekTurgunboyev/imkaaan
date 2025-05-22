@@ -243,7 +243,7 @@ class HomeActivity : AppCompatActivity(), ServiceConnection {
             ResourceState.LOADING -> {}
             ResourceState.SUCCESS -> {
 
-                if (resource.data?.data?.check == true) {
+                if (resource.data?.data?.check == false) {
 
                     if (userPreferenceManager.getDriverStatus() == UserPreferenceManager.DriverStatus.COMPLETED && currentDestinationId != R.id.driverFragment && currentDestinationId != R.id.taximeterFragment) {
 

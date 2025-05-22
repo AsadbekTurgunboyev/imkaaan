@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        android:background="@color/background_dashboard">
+        android:background="@color/new_background_color">
 
         <RelativeLayout
             android:id="@+id/relativeLayout"
@@ -82,8 +82,8 @@
                 android:paddingHorizontal="@dimen/_20sdp"
                 android:textSize="@dimen/_16ssp"
 
-                app:colorBorder="@color/blue"
-                app:colorOn="@color/blue"
+                app:colorBorder="@color/new_blue"
+                app:colorOn="@color/new_blue"
                 app:on="false"
                 app:textOff="@string/inwork"
                 app:textOn="@string/inwork" />
@@ -103,6 +103,7 @@
                 android:layout_width="@dimen/_30sdp"
                 android:foreground="?selectableItemBackgroundBorderless"
                 android:clickable="true"
+                android:backgroundTint="@color/new_blue"
                 android:background="@drawable/bg_shape_dispetcher"
                 android:layout_alignParentEnd="true"
                 android:focusable="true"
@@ -117,7 +118,8 @@
                 android:contentDescription="@string/icon"
                 android:layout_gravity="center"
                 android:padding="@dimen/_2sdp"
-                android:src="@drawable/ic_dispetcher" />
+                android:src="@drawable/ic_dispetcher"
+                app:tint="@color/new_text_color" />
 
             </FrameLayout>
         </RelativeLayout>
@@ -127,7 +129,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:id="@+id/button_order"
-            app:cardBackgroundColor="@color/order_color"
+            app:cardBackgroundColor="@color/new_blue"
             app:cardCornerRadius="@dimen/_8sdp"
             android:clickable="true"
             android:focusable="true"
@@ -162,7 +164,7 @@
                     android:layout_marginHorizontal="@dimen/_5sdp"
                     android:gravity="center"
                     android:text="@string/buyurtmalar"
-                    android:textColor="@color/white"
+                    android:textColor="@color/new_text_color"
                     android:textSize="@dimen/_22ssp" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -171,11 +173,11 @@
             android:id="@+id/button_tarif"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:cardCornerRadius="@dimen/_8sdp"
+            android:background="?selectableItemBackground"
             android:clickable="true"
             android:focusable="true"
-            app:cardBackgroundColor="@color/tarif_color"
-            android:background="?selectableItemBackground"
+            app:cardBackgroundColor="@color/new_blue"
+            app:cardCornerRadius="@dimen/_8sdp"
             app:cardElevation="@dimen/_3sdp"
             app:layout_constraintBottom_toTopOf="@+id/guideline13"
             app:layout_constraintEnd_toStartOf="@+id/guideline9"
@@ -194,12 +196,14 @@
                     android:layout_width="@dimen/_24sdp"
                     android:layout_height="@dimen/_24sdp"
                     android:contentDescription="@string/icon"
-                    android:src="@drawable/ic_clear" />
+                    android:src="@drawable/ic_clear"
+                    app:tint="@color/new_text_color" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/tariflar"
+                    android:textColor="@color/new_text_color"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -211,7 +215,7 @@
             android:focusable="true"
 
             android:background="?selectableItemBackground"
-            app:cardBackgroundColor="@color/tarif_color"
+            app:cardBackgroundColor="@color/new_text_color"
 
             android:id="@+id/button_xizmatlar"
             app:cardCornerRadius="@dimen/_8sdp"
@@ -233,12 +237,14 @@
                     android:layout_width="@dimen/_24sdp"
                     android:layout_height="@dimen/_24sdp"
                     android:contentDescription="@string/icon"
-                    android:src="@drawable/ic_car" />
+                    android:src="@drawable/ic_car"
+                    app:tint="@color/new_blue" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/xizmatlar"
+                    android:textColor="@color/black"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -246,7 +252,7 @@
         <com.google.android.material.card.MaterialCardView
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:backgroundTint="@color/yellow1"
+            android:backgroundTint="@color/new_text_color"
 
             app:cardCornerRadius="@dimen/_8sdp"
             app:cardElevation="@dimen/_3sdp"
@@ -269,7 +275,7 @@
                     android:layout_height="@dimen/_30sdp"
                     android:contentDescription="@string/icon"
                     android:src="@drawable/ic_balance"
-                    app:tint="@color/black" />
+                    app:tint="@color/new_blue" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -282,8 +288,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/balance"
-                        android:textColor="#000"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textColor="#000" />
 
                     <FrameLayout
                         android:layout_width="wrap_content"
@@ -297,11 +303,11 @@
                             android:textSize="@dimen/_24ssp"
                             android:textStyle="bold" />
 
-                       <ProgressBar
-                           android:id="@+id/total_balance_loading"
-                           android:layout_width="@dimen/_24sdp"
-                           android:layout_gravity="center"
-                           android:layout_height="@dimen/_24sdp"/>
+                        <ProgressBar
+                            android:id="@+id/total_balance_loading"
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_gravity="center" />
 
                     </FrameLayout>
 
@@ -315,7 +321,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:cardCornerRadius="@dimen/_8sdp"
-            app:cardBackgroundColor="@color/tarif_color"
+            app:cardBackgroundColor="@color/new_blue"
 
             app:cardElevation="@dimen/_3sdp"
             app:layout_constraintBottom_toTopOf="@+id/guideline18"
@@ -335,12 +341,14 @@
                     android:layout_width="@dimen/_24sdp"
                     android:layout_height="@dimen/_24sdp"
                     android:contentDescription="@string/icon"
-                    android:src="@drawable/ic_history" />
+                    android:src="@drawable/ic_history"
+                    app:tint="@color/new_text_color" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/tarix"
+                    android:textColor="@color/new_text_color"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -372,14 +380,15 @@
                     android:layout_width="@dimen/_24sdp"
                     android:layout_height="@dimen/_24sdp"
                     android:contentDescription="@string/icon"
-                    android:src="@drawable/ic_power" />
+                    android:src="@drawable/ic_power"
+                    app:tint="@color/new_text_color" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/chiqish"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/new_text_color" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 

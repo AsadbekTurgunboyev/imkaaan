@@ -45,4 +45,10 @@
     <color name="date_picker_background">#F7F7F8</color>
 
 
+    <color name="new_blue">#1e5ccd</color>
+    <color name="new_text_color">#ffffff</color>
+<!--    <color name="new_black">#000000</color>-->
+    <color name="new_red">#DC4532</color>
+    <color name="new_background_color">#c6c6c6</color>
+
 </resources>
